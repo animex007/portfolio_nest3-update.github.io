@@ -1,0 +1,23 @@
+<header-1>
+        <!-- navigation bar!.-->
+
+        <!--to be changed-->
+
+
+        <img class="logo" src="images/Black___White_Minimalist_Business_Logo-removebg-preview.png" alt="logo">
+        <nav>
+            <ul class="nav_link">
+
+                <!--to be changed-->
+
+
+                <li><a href="#">services</a></li>
+                <li><a href="#">project</a></li>
+                <li><a href="#">about</a></li>
+                
+            </ul>
+        </nav>
+
+        <a class="cta" href="#"><button>contact</button></a>
+    </header-1> 
+   

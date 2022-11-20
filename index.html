@@ -1,0 +1,295 @@
+<!-- codde by -AYUSH JAGDHANE    -(código-dios)            -->
+<!-- DO NOT TOUCH !         -->
+<!-- HTML, SASS, CLAMP , JAVASCRIPT NO ADDED YET!        -->
+<!-- RESPONSIVE WEBSITE          >>>>>> YES         -->
+<!-- NAV BAR NOT YET MADE   ---  OPEN WITH REACT NXT TIME             -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portfolio_Nest.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+</head>
+
+<body>
+  <header>
+    <!-- navigation bar!.-->
+
+    <!--to be changed-->
+
+
+    <img class="logo" src="images/Black___White_Minimalist_Business_Logo-removebg-preview.png" alt="logo">
+    <nav>
+        <ul class="nav_link">
+
+            <!--to be changed-->
+            
+              <li><a class="link-colr" href="services/services.html">SERVICES</a></li>
+            <li><a class="link-colr" href="developer file description/index.html">FEEDBACK</a></li>
+            <li><a class="link-colr" href="service or about/services.html.html">ABOUT</a></li>
+
+            
+
+
+           
+            
+        </ul>
+    </nav>
+
+    <a class="cta" href="links/1pmloginpage.html"><button>Login</button></a>
+</header> 
+
+    
+   
+<!-- main strts here!!      -------------------->
+    
+
+  <header class="hero">
+   
+    <div class="container spacing">
+      <h1 class="primary-title">Find out how Amazing you are!</h1>
+      <p><br><br><br><br>A good  portfolio shines a light on your work. Portfolio_Nest helps you feature your work in a professional way with beautiful, custom digital portfolios created within minutes.
+        Make an eportfolio that will impress your clients. Get started for free.</p>
+      <a href="#" class="btn">See what we have</a>
+    </div> 
+   
+  </header>
+
+
+  <main>
+
+    <section class="featured">
+      <div class="container">
+        <h2 class="section-title">Featured services</h2>
+        <div class="split">
+          <a href="cooming soon/index.html" class="featured__item"> <!--CHANGE link        -->
+            <!--CHANGE PHOTO        -->
+        
+
+            <img src="images/pngwing.com (5).png" alt="" class="featured__img">  
+            <p class="featured__details"><span class="price">E-portfolio</span>Build with Us!</p>
+          </a>
+          <a href="https://www.canva.com/" class="featured__item"> <!--CHANGE link        -->
+            <!--CHANGE PHOTO        -->
+            <img src="images/pngwing.com (9).png" alt="" class="featured__img">
+            <p class="featured__details"><span class="price">Templates</span>professionally built templates</p>
+          </a>
+          <a href="question pre loader/index.html" class="featured__item"> <!--CHANGE link        -->
+            <!--CHANGE PHOTO        -->
+            <img src="images/pngwing.com.png" alt="" class="featured__img">
+            <p class="featured__details"><span class="price">Test yourself</span>let's test your skill!</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="our-products">
+      <div class="container">
+        <h2 class="section-title">Explore More...</h2>
+
+        <article class="product shoe-red spacing">
+                                                        
+          <!--CHANGE PHOTO        -->
+          <img src="images/pngwing.com (1).png" alt="" class="product__image">
+          <h3 class="product__title">know your level</h3>
+          <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+            perspiciatis facilis beatae laudantium quidem enim sit sequi!</p>
+          <a href="cooming soon/index.html" class="btn">stats</a>
+        </article>
+
+        <article class="product shoe-white shoe-left spacing">
+                                                              
+          <!--CHANGE PHOTO        -->
+          <img src="images/14.png" alt="" class="product__image">
+          <h3 class="product__title">why you need us?</h3>
+          <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+            perspiciatis facilis beatae laudantium quidem enim sit sequi!</p>
+          <a href="know us more/index.html" class="btn">know more</a>
+        </article>
+
+        <article class="product shoe-blue spacing">
+                                                           
+          <!--CHANGE PHOTO        -->
+          <img src="images/kindpng_4798804.png" alt="" class="product__image">
+          <h3 class="product__title">join us now</h3>
+          <p class="product__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam
+            perspiciatis facilis beatae laudantium quidem enim sit sequi!</p>
+          <a href="#" class="btn">connect</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!--responsive section    ------------------- ---------------- -->
+
+
+    
+
+    
+
+    
+ <!--                        CHAT BAR BLOCK                         -->
+
+    <section class="chat-bot1">
+      <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+      <button id="chat-button" type="button" class="collapsible">Chat with us!
+          <i id="chat-icon" style="color: #ffffff;" class="fa fa-fw fa-comments-o"></i>
+      </button>
+
+      <div class="content">
+          <div class="full-chat-block">
+              <!-- Message Container -->
+              <div class="outer-container">
+                  <div class="chat-container">
+                      <!-- Messages -->
+                      <div id="chatbox">
+                          <h5 id="chat-timestamp"></h5>
+                          <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                      </div>
+
+                      <!-- User input box -->
+                      <div class="chat-bar-input-block">
+                          <div id="userInput">
+                              <input id="textInput" class="input-box" type="text" name="msg"
+                                  placeholder="Tap 'Enter' to send a message">
+                              <p></p>
+                          </div>
+
+                          <div class="chat-bar-icons">
+                              <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                  onclick="heartButton()"></i>
+                              <i id="chat-icon" style="color: rgb(0, 38, 255);" class="fa fa-fw fa-send"
+                                  onclick="sendButton()"></i>
+                          </div>
+                      </div>
+
+                      <div id="chat-bar-bottom">
+                          <p></p>
+                      </div>
+
+                  </div>
+              </div>
+
+          </div>
+      </div>
+
+  </div>
+
+    </section>
+
+
+    <!-- slide barrrrr       ---------------- ----------------            --->
+    <!-- testimonial -->
+    <!--responsive section    ------------------- ---------------- -->
+    <section class="testi">
+      <div class="wrapper">
+        <div class="services">
+        <a href="testi cooming soon/index.html">
+            <span class="single-img img-one">
+                <span class="img-text">
+                    <h4>person1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quam.</p>
+                    <button>connect</button>
+                </span>
+            </span>
+        </a>
+        <a href="testi cooming soon/index.html">
+            <span class="single-img img-two"> 
+                <span class="img-text">
+                    <h4>person2</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quam.</p>
+                    <button>connect</button>
+                </span>
+            </span>
+        </a>
+        <a href="testi cooming soon/index.html">
+            <span class="single-img img-three">
+                <span class="img-text">
+                    <h4>person3</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quam.</p>
+                    <button>connect</button>
+                </span>
+            </span>
+        </a>
+    </div>
+    </div>
+    </section>
+    <!-- ends here -->
+   
+
+
+
+
+  </main>
+
+  <!--footer starts here!------------------------->
+
+  <footer class="footer">
+    <div class="container-1">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li><!--CHANGE link        -->
+                    <li><a href="#">our services</a></li><!--CHANGE link        -->
+                    
+                    <li><a href="#">#Team Portfolio_Nest</a></li><!--CHANGE link        -->
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li><!--CHANGE link        -->
+                    
+                    <li><a href="developer file description/index.html">email</a></li><!--CHANGE link        -->  <!--  next auth or firebase     -->
+                    <li><a href="cooming soon/index.html">updates </a></li><!--CHANGE link        -->
+                    <li><a href="#">copyright</a></li><!--CHANGE link        --><!--not yet       -->
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Developers</h4>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/ayush-jagdhane-528092241/">Ayush </a></li><!--CHANGE link        -->
+                    <li><a href="https://www.linkedin.com/in/rohan-nishad-4a79a5234">Rohan </a></li><!--CHANGE link        -->
+                    <li><a href="http://www.linkedin.com/in/prachi-bangre-38ab28237">prachi</a></li><!--CHANGE link        -->
+                    <li><a href="https://www.linkedin.com/in/bhavesh-s-603a27241">Bhavesh</a></li><!--CHANGE link        -->
+                    <li><a href="https://www.linkedin.com/in/anjali-ranglani-187ab8255">Anjali</a></li><!--CHANGE link        -->
+                    <li><a href="https://www.linkedin.com/in/suraj-hemnani-b73396211">Suraj</a></li><!--CHANGE link        -->
+                </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                
+              </div>
+           <p>Follow Us At!<br>jit.com</p>
+            </div>
+          </div>
+        </div>
+
+
+
+            
+            
+</footer>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="javascript/responses.js"></script>
+<script src="javascript/chat.js"></script>
+<script src="javascript/script.js"></script>
+
+
+
+</html>
