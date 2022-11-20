@@ -1,0 +1,101 @@
+.title{
+    font-size: 30px;
+    text-align: center;
+    font-weight:600;
+    color: #1dfdea;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(13.gif);
+    
+}
+.contain{
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%) ;
+    padding: 2px;
+    background: black;
+    box-shadow: 0 0 5px rgba(0 0 0 /.5),0 0 25px rgba(0 0 0/.5) 0 0 50px rgba(0 0 0 /.5),0 0 100px #03e9f4;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+.contain .text{
+    position: relative;
+    top: 20%;
+}
+.sign-1{
+    color: aliceblue;
+}
+.sign-1:hover{
+    color: aqua;
+}
+.contain:hover{
+    background: black;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,0 0 100px#03e9f4;
+}
+.login-button{
+    width: 400px;
+    padding: 40px;
+    background: rgba(0 0 0 /.9);
+    box-sizing:border-box;
+    border-radius: 5px;
+}
+.inpo1{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid  white;
+    width :250px;
+    font-size: 22px;
+    margin-top: 30px;
+    outline:none;
+    color: white;
+}
+.inpo2{
+    border:none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width :250px;
+    font-size: 22px;
+    margin-top: 25px;
+    outline: none;
+    color: white;
+}
+
+.button{
+    position: absolute;
+    top:120%;
+    right: 30%;
+    width: 120px;
+    height: 28px;
+    background-color:black;
+    color:#03e9f4;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    
+}
+.button:hover{
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,0 0 100px#03e9f4;
+}
+.login-button a span{
+    position: absolute;
+    display: block;
+}
+
+
+
+
+
+
